@@ -8,9 +8,14 @@ x = np.array([[1, 2, 0], [4, 5, 6], [7, 8, 9], [1, 2, 3]])
 
 y = np.array([[1, 2, 0], [-4, 5, 6], [7, 8, 9]])
 
-ID = np.array([1, 2, 3])
+B = np.random.choice(6, 6, replace = True)
 
+a = 1 
+b = 2
+c = -1
+A = []
+A = [a, b, c]
 
+A = np.maximum(A, 0)
 
-
-print(x[ID])
+print(A)
